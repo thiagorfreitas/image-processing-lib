@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>ImageProcessingEngine</RootNamespace>
+    <AssemblyName>ImageProcessingEngine</AssemblyName>
+    <Version>1.0.0</Version>
+    <Description>OutSystems ODC External Library: image resize, crop, format conversion, compression and thumbnails.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- OutSystems External Libraries SDK -->
+    <PackageReference Include="OutSystems.ExternalLibraries.SDK" Version="1.*" />
+
+    <!-- Pure-managed image processing — no native binaries, runs on ODC Linux containers -->
+    <PackageReference Include="SixLabors.ImageSharp" Version="3.*" />
+
+    <!-- Logging surface for ODC Portal log viewer -->
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.*" />
+  </ItemGroup>
+
+</Project>

@@ -22,7 +22,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="../../lib_icon.png" Link="lib_icon.png" />
+    <EmbeddedResource Include="../../lib_icon.png" Link="lib_icon.png">
+      <LogicalName>lib_icon.png</LogicalName>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>

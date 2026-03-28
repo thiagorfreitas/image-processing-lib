@@ -41,9 +41,8 @@ bld/
 .DS_Store
 *.zip
 *.png
-# Allow the project's logo if needed, but the user didn't specify.
-# I'll keep the logo mentioned in the directory structure.
-!image_processing_engine_blue_logo_1774716056625.png
+# Allow the project's library icon
+!lib_icon.png
 
 # Superpowers internal plans and metadata
 docs/superpowers/

@@ -21,4 +21,8 @@
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.*" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EmbeddedResource Include="../../lib_icon.png" Link="lib_icon.png" />
+  </ItemGroup>
+
 </Project>

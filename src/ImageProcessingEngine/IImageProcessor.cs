@@ -11,7 +11,8 @@ namespace ImageProcessingEngine;
 /// </summary>
 [OSInterface(
     Name        = "ImageProcessor",
-    Description = "Server-side image manipulation: resize, crop, format conversion, compression, and thumbnail generation.")]
+    Description = "Server-side image manipulation: resize, crop, format conversion, compression, and thumbnail generation.",
+    IconResourceName = "lib_icon.png")]
 public interface IImageProcessor
 {
     /// <summary>
